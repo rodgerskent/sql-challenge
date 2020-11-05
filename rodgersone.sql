@@ -58,8 +58,8 @@ SELECT * FROM employee_manager
 DROP TABLE employee_department
 CREATE TABLE employee_department (
 -- junction_item SERIAL,
-	empl_no INT PRIMARY KEY,
-	dept_no VARCHAR (30) PRIMARY KEY,
+	empl_no INT,
+	dept_no VARCHAR (30),
 	FOREIGN KEY (dept_no) REFERENCES departments(dept_no)
 	);
 SELECT * FROM employee_department
