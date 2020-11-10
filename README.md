@@ -27,6 +27,11 @@ The project required three phases. These phases included Data Modelling, Data En
   f.	List all employees in the Sales department, including their employee number, last name, first name, and department name.
   g.	List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
   h.	In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
+  
+4.Bonus - Link to and analyze in Python/Jupyter Notebook
+  a. Create a histogram to visualize the most common salary ranges for employees.
+  b. Create a bar chart of average salary by title.
+
 
 Key Takeaways
 None outside of building database modelling and engineering competency
@@ -36,10 +41,11 @@ Repository Summary & Deliverables Locator
 •	Image examples of completed data analysis located in Pitchbook (PPT)
 •	Schema is located in rodgersone.sql
 •	Queries are located in rodgerstwo.sql
+•	Bonus material in rodgersthree.ipynb
 •	The original six CSV files are located in the EmployeeSQl folder
 
 Support
-I attempted to construct an ERD using the recommended third-party application but found the tool to be unreliable based on its requirement to have a pro account and requiring a twitter account to obtain one. 
+I attempted to construct an ERD using the recommended third-party application but found the tool to be unreliable based on its requirement to have a pro account and requiring a twitter account to obtain one.
 
 Roadmap
 Not applicable
@@ -51,4 +57,4 @@ License
 PG Admin was utilized without added expense to complete this project
 
 Project status
-Core assignment is complete. The bonus section is still pending. 
+Core assignment and the bonus challenge is complete.  
